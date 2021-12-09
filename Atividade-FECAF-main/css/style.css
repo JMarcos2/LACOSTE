@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+ul li {list-style: none;}
+
+.colorido { 
+    height: 2px; width: 100% ; 
+    background-image: linear-gradient(to left, #ff86b5 , #ffa857 , #ffb146 , #ffba36 , #ffc227 , #ffca19 , #f8d110 , #e5d812 , #d1de1e, #6bef63 , #3ff276 , #00f48a , #00f69f, #00f7b5 )
+    }
+
+.email {background-color: rgb(141, 42, 98); font-size: 0.8em; padding: 5px; height: 24px;}
+
+.email p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.pesquisa {padding: 10px;background-color: #8d2a62; width: 100%; height: 55px ;float: left;}
+.pesquisa i {color: white; float: left; margin-top: 8px; margin-right: 10px;}
+.pesquisa input {padding: 5px; border-radius: 5px; border: none; float: left; width: 18%;}
+
+.pesquisa input:hover {background-color:rgba(255, 255, 255, 0.747);}
+
+.acesso {float: right; padding: 0 1%;}
+.carrinho {margin-top: 2px;}
+.user {margin-bottom: 2px; margin-right: 8px;}
+
+.cabecalho {width: 100%; height: 150px;background-color: rgba(0, 0, 0, 0.829); float: left; color: white; padding: 8px 0 0 2%;}
+.cabecalho img { width: 120px; height: 120px; float: left; margin-top: 0.5%;}
+
+.navegacao {padding: 30px; height: 80px;}
+.navegacao ul li {float: right; letter-spacing: 5px; margin-right: 80px; margin-top: 2.3%;}
+.navegacao ul li a{color: white; font-size: 1.2em;text-decoration: none;}
+
+.navegacao ul li a:hover{color: rgba(255, 255, 255, 0.384);}
+#carouselExampleIndicators {width: 90%; margin: auto;}
+.slides {padding: 5px ;margin-top: 200px; width: 100%; height: 455px; background-color: rgba(141, 42, 98);}
+
+main {background-color: white}
+
+.page-header {margin-top: 30px; margin-bottom: 30px;}
+
+/*PRODUTOS*/
+
+
+/*PARTE RESPONSIVEL*/
+
+@media screen and (max-width: 760px) {
+    .pesquisa input {
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        float: left;
+        width: 28%;
+    }
+    #carouselExampleIndicators {
+        width: 100%;
+    }
+    .navegacao ul li {
+        float: right;
+        font-size: 0.8em;
+        letter-spacing: 2px;
+        margin-right: 20px;
+        margin-top: 3%;
+    }
+    .cabecalho img {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .navegacao ul li {
+        font-size: 0.8em;
+        float: right;
+        letter-spacing: 2px;
+        margin-right: 10px;
+        margin-top: 4.5%;
+    }
+    div.banner-us {
+        height: 450px;
+    }
+    div.banner-us h3 {
+        color: white;
+        font-size: 2em;
+        text-align: justify;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navegacao ul li {
+        font-size: 0.6em;
+        float: right;
+        margin-right: 5px;
+        margin-top: 6%;
+        padding: 5px;
+    }
+    .banner-us {
+        height: 450px;
+    }
+    .banner-us h3 {
+        color: white;
+        font-size: 2.5em;
+        text-align: justify;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+/*SOBRE*/
+
+.about {
+    background-color: #005fb8c7;
+    width: 100%;
+    padding: 50px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.about h5 {
+    font-size: 2em;
+}
+
+.about h1 {
+    font-size: 3.3em;
+    width: 380px;
+}
+
+.about-apresentation {
+    padding: 60px;
+}
+
+.about-apresentation h2 {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.about-apresentation p {
+    margin-top: 50px;
+    text-align: center;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.banner-us {
+    background: url('../img/bluemoon-b.png');
+    width: 100%;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+    padding: 80px;
+    height: 420px;
+}
+
+.banner-us h3 {
+    color: white;
+    font-size: 2.8em;
+    text-align: justify;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-group {
+    padding: 30px;
+}
+
+.about-group h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    padding: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+button.btn-more {
+    width: 20%;
+    margin-bottom: 40px;
+    padding: 5px;
+    background-color: #005fb8fa;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
